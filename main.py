@@ -1,4 +1,3 @@
-from src.data.conect import conectar
+from src.gui.forms.form_login import App
 
-if __name__ == "__main__":
-    conectar()
+App()
