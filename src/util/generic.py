@@ -13,4 +13,3 @@ def centrar_ventana(ventana, aplicacion_ancho, aplicacion_largo):
     ventana.geometry(f"{aplicacion_ancho}x{aplicacion_largo}+{x}+{y}")
     ventana.update_idletasks()
     return ventana.geometry()
-
