@@ -3,6 +3,6 @@ from src.gui.master.form_master import MasterPanel
 from src.persistence.conect import Conectar
 
 if __name__ == "__main__":
-    #App()
+    App()
     Conectar()
-    MasterPanel(usu="Gregory")
+    #MasterPanel(usu="Gregory")
